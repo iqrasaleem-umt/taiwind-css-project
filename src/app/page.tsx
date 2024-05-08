@@ -23,8 +23,8 @@ export default function Home() {
       </div>
 
     </div>
-    <input className="bg-sky-500 mt-2 p-3 rounded-xl text-black hover:bg-white hover:text-black" type="input" value={name} placeholder="user name" onChange={handleusername}/>
-    <input className="bg-sky-500 mt-2 p-3 rounded-xl text-black hover:bg-white hover:text-black" type="password" value={password} placeholder="password" onChange={handlepassword}/>
+    <input className="bg-white mt-2 p-3 rounded-xl text-black hover:bg-sky-500 hover:text-black" type="input" value={name} placeholder="user name" onChange={handleusername}/>
+    <input className="bg-white mt-2 p-3 rounded-xl text-black hover:bg-sky-500 hover:text-black" type="password" value={password} placeholder="password" onChange={handlepassword}/>
   </div>
 
   );
