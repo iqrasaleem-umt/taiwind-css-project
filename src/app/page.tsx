@@ -15,7 +15,7 @@ export default function Home() {
     <h1 className="text-white text-4xl">  Login Form</h1>
     <div className="  bg-white mt-2 rounded-sm shadow-lg flex items-center  space-x-4"> 
     <div>
-     <Image src="https://previews.123rf.com/images/vitechek/vitechek1912/vitechek191200200/137940092-user-login-or-authenticate-icon-human-person-symbol-vector.jpg" alt="" width={100} height={100}/>
+     <Image src="https://previews.123rf.com/images/vitechek/vitechek1912/vitechek191200200/137940092-user-login-or-authenticate-icon-human-person-symbol-vector.jpg" alt="" width={150} height={150}/>
      </div>
     <div className="text-xl font-medium text-black">
       username and password
@@ -25,6 +25,7 @@ export default function Home() {
     </div>
     <input className="bg-white mt-2 p-3 rounded-xl text-black hover:bg-sky-500 hover:text-black" type="input" value={name} placeholder="user name" onChange={handleusername}/>
     <input className="bg-white mt-2 p-3 rounded-xl text-black hover:bg-sky-500 hover:text-black" type="password" value={password} placeholder="password" onChange={handlepassword}/>
+    
   </div>
 
   );
